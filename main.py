@@ -47,8 +47,3 @@ g.add_edges(data.edge_src, data.edge_dst)
 with torch.no_grad():
     model = SummarizationModel(g.number_of_nodes(), h_dim=16, out_dim=20, num_rels=num_rels, num_bases=25)
     logits = model(g, feats, edge_type, edge_norm)
-
-print(logits)
-print("done")
-
-exit()
