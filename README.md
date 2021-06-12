@@ -13,9 +13,9 @@ Implementation: [here](https://github.com/IKnowLogic/RDF-Summarization-Miniproje
 
 ## Guide:
 
-- We suggest you should use PyCharm to run the code
+- We suggest you should use PyCharm to run the code.
 - You must install the following libraries to run the code.
 
   ```sh
-  dgl, dgl.contrib.data, dgl.nn.pytorch, and torch
+  dgl and torch
   ```
